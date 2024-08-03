@@ -1,9 +1,9 @@
-const Chatbot = () => (
-    <div>
-      <h1>Chatbot Page</h1>
-      <p>This is the Chatbot Page.</p>
-    </div>
+import Layout from "../components/Layout";
+
+export default async function Home() {
+  return (
+    <Layout>
+      <h1>Financial Assistant</h1>
+    </Layout>
   );
-  
-  export default Chatbot;
-  
+}
